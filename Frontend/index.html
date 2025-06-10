@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>ALICE-Virtual Assistant</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="top-part">
+                <img src="./Assets/bot.png" alt="icon of an AI bot" class="img1">
+                <h1>ALICE</h1>
+                <h3>Online</h3>
+                <div class="dot"><a>🟢</a></div>
+            </div>
+        </div>
+        <p>Hey, How can I help you?</p>
+        <!-- messages will appear here -->
+        <div class="footer">
+            <div class="bottom-part">
+                <input type="text" placeholder="message..." class="type-text">
+                <button type="submit" id="send-btn" onclick="sendmessage()"><img src="./Assets/send-text.png" class="img2"></button>
+                <script src="index.js"></script>
+            </div>
+            <h4>Powered by EdgeAI</h4>
+        </div>
+    </body>
+</html>
+
+
+<!-- redesign the UI once again
+  *corrections*
+  1. use type="submit" element in the button field
+  2. the interactive part/chat window is a main part. use main tag
+  3. the input field with the placeholder is a form. include autocomplete off
+  4. in "ALICE" header, use the header tag -->
