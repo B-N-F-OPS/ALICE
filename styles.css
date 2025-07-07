@@ -78,8 +78,8 @@ h1 {
 }
 
 .send {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 34px;
 }
 
 .send:focus {
@@ -89,6 +89,7 @@ h1 {
 
 input {
     width: 370px;
+    height:40px;
     border-radius: 20px;
 }
 
@@ -103,7 +104,7 @@ input[type="text"] {
 }
 
 .footer {
-    padding-top: 560px;
+    padding-top: 550px;
 }
 
 p {
