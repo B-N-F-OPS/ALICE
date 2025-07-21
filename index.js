@@ -7,4 +7,5 @@ function send() {       // testing if i can put the input tect and display it in
 }
 
 // I need to display the input text in the chatbox, then pick it from there and use it in the next steps
-// explore tables
+// explore tables. i might need to use <table> instead of <form> or use table inside <form>
+// add icon to the chats when bot is responding
