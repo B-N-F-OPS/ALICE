@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
+        <title>ALICE</title>
+        <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chatbot chat interface</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Happy+Monkey&family=Jim+Nightshade&family=Nova+Square&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <div class="chatbot">
+        <div class="chatBot">
             <div class="header">
-                <img id="bot" src="./Assets/bot.gif" alt="bot avatar">
-                <h1>ALICE <span class="online">online</span></h1>
-                <button id="refresh" ><img class="refresh" src="./Assets/refresh.png" alt="restart"></button>
+                <img src="./Assets/bot.gif" alt="avatar of a bot">
+                <h1 class="botName">ALICE</h1>
+                <h3 class="online">online</h3>
             </div>
 
-            <div>
-                <form class="chatform">
-                    <h3 id="opentext">Hi! How can I help you today?</h3>
-                    <div class="footer">
-                        <div class="inputfield">
-                            <input id="inputText" type="text" placeholder="message...">
-                            <button id="send" onclick="send()"><img class="send" src="./Assets/send.png" alt="send message"></button>
-                        </div>
-                        <p>Powered by <strong>EDGE</strong></p>
-                    </div>
-                </form>
+            <form>
+                <div class="messageContainer left">
+                    <div class="message bot">Hey! how can I help you? </div>
+                </div>
+
+                <div class="messageContainer right">
+                    <div class="message client">I am doing good</div>
+                </div>
+            </form>
+
+            <div class="footer">
+                <div class="inputField">
+                    <input type="text" placeholder="message...">
+                    <button is="send"><img src="./Assets/send.png"></button>
+                </div>
+                <h4><strong><em>powered by edge</em></strong></h4>
             </div>
         </div>
+
+        <button id="renderUI">
+            <img class="renderUiChatIcon" src="./Assets/chat.png">
+            <h1 class="needHelp">NEED HELP? CHAT WITH ALICE</h1>
+        </button>
+
         <script src="index.js"></script>
     </body>
 </html>
