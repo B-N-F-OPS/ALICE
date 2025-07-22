@@ -6,7 +6,7 @@ body {
 
 .chatBot {
     margin: 20px 20px 0px auto; 
-    width: 450px;
+    width: 380px;
     height: 780px;
     background-color: aliceblue;
     border-radius: 20px;
@@ -32,7 +32,7 @@ img {
 }
 
 .botName {
-    padding-left: 70px;
+    padding-left: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 28px;
@@ -45,7 +45,14 @@ img {
 
 .online {
     color: #588157;
-    padding: 15px 0px 0px 15px;
+    padding: 20px 0px 0px 7px;
+    font-size: 1rem;
+}
+
+#refresh {
+    padding-left: 50px;
+    font-size: 1.25rem;
+    color: #08447c;
 }
 
 form {
@@ -103,12 +110,6 @@ h4 {
 
 a {
     text-decoration: underline;
-}
-
-h2 {
-    background: #438bce;
-    display: inline;
-    padding-bottom: 20px;
 }
 
 #botConvos {
