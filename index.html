@@ -3,38 +3,41 @@
     <head>
         <title>ALICE</title>
         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Artificial Intelligence, Virtual assistants, chatbots, chatbot Development">
+        <meta name="author" content="BrianK">
 
     </head>
     <body>
         <div class="chatBot">
-            <div class="header">
-                <img src="./Assets/bot.gif" alt="avatar of a bot">
+            <header class="header">
+                <img src="./Assets/bot.gif" alt="gif avatar of a bot">
                 <h1 class="botName">ALICE</h1>
                 <h3 class="online">online</h3>
-            </div>
+            </header>
 
             <form>
-                <div class="messageContainer left">
+                <div class="messageContainer left" id="botMessage-el">
                     <div class="message bot">Hey! how can I help you? </div>
                 </div>
 
-                <div class="messageContainer right">
+                <div class="messageContainer right" id="clientMessage-el">
                     <div class="message client">I am doing good</div>
                 </div>
             </form>
 
-            <div class="footer">
+            <footer class="footer">
                 <div class="inputField">
                     <input type="text" placeholder="message...">
-                    <button is="send"><img src="./Assets/send.png"></button>
+                    <button is="send"><img src="./Assets/send.png" alt="a send messagge icon to signify, send message"></button>
                 </div>
-                <h4><strong><em>powered by edge</em></strong></h4>
-            </div>
+                <a href="www.edge.com" target="_blank"><h4><strong><em>powered by edge</em></strong></h4></a>
+            </footer>
         </div>
 
         <button id="renderUI">
-            <img class="renderUiChatIcon" src="./Assets/chat.png">
+            <img class="renderUiChatIcon" src="./Assets/chat.png" alt="a message icon">
             <h1 class="needHelp">NEED HELP? CHAT WITH ALICE</h1>
         </button>
 
