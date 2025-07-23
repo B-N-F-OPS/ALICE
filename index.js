@@ -1,3 +1,4 @@
+// ( CTRL + / ) - FOR COMMENTING
 // I created IDs ("botMessage-el" && "clientMessage-el"). they have no css styling. i can delete if i want
 
 // render chat icon on clicking "need help? chat with ALICE"
